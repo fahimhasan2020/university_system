@@ -1,0 +1,367 @@
+.main_div {
+    width: 100%;
+    height: 100%;
+}
+
+.main_div img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+
+    background: darkblue;
+    background-color: transparent;
+    color: white;
+}
+
+.navbar.navbar-default {
+    position: fixed;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    transition: 0.5s;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar {
+
+     min-height: 0px;
+     margin-bottom: 0px;
+     border: 0px solid transparent;
+    border-radius: 0px;
+}
+
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+#welcome {
+    background: #fff;
+    padding: 100px;
+}
+
+.welcome {
+    padding: 50px;
+    text-align: justify;
+}
+
+.event {
+    background: darkcyan;
+    padding: 60px;
+}
+
+.event h1 {
+    color: white;
+    font-size: 27px;
+}
+
+.event button {
+    padding: 5px 20px;
+}
+
+#footer {
+    background: #152736;
+    color: white;
+    padding: 100px;
+}
+
+#footer p {
+    font-size: 16px;
+}
+
+#footer span {margin-left: 20px;}
+
+#footer_bottom {
+    background: #101b24;
+    padding: 22px;
+    text-align: center;
+    color: white;
+}
+
+.isActive{
+    background-color: #152736!important;
+    box-shadow: 0px 1px 3px #ccc;
+}
+
+.isActive ul li a {
+    color: white!important;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.isActive a.navbar-brand {
+    color: white!important;
+}
+
+/*about us style*/
+
+
+#about {
+    margin-top: 4%;
+    background: #f7f7f7;
+}
+
+.about_header {
+    text-align: center;
+    border-bottom: solid 1px #e5e5e5;
+    margin-bottom: 10px;
+}
+
+.about_img {
+    width: 100%;
+    height: 100%;
+    border: solid 1px #e5e5e5;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+.about_img img {
+    width: 100%;
+    height: auto;
+}
+
+.about_details_one {
+    padding: 30px 0px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+
+
+/*admission form style*/
+
+
+/*----------------------------------------------------------Print Admission form----------------------------------------------------------*/
+
+.admission-area.page-content-area {
+    padding: 50px 0px;
+}
+
+#form-print {
+    margin-bottom: 20px;
+}
+
+.form-body {
+    border: 2px solid #152736;
+    margin-top: 20px;
+    padding: 0px 20px 5px 20px;
+}
+
+.school-logo img {
+    max-height: 110px;
+}
+
+.school-info p {
+    margin-bottom: 0;
+    color: #777;
+}
+
+.school-info h2 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.school-info h3 {
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.student-img {
+    height: 130px;
+    width: 100px;
+    margin-left: auto;
+    border: 2px solid #6b6b6b;
+    padding: 10px;
+    padding-top: 50px;
+}
+.block-title {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 5px;
+    position: relative;
+    color: #fff;
+    margin-bottom: 20px;
+    z-index: 2;
+    background: #152736 !important;
+}
+
+.block-title:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    border-bottom: 36px solid #000;
+}
+
+.block-title h4 {
+    margin-bottom: 0;
+}
+
+.form-head {
+    margin-top: 1cm;
+}
+.form-body .input-title {
+    float: left;
+    margin-right: 8px;
+}
+
+.form-body .form-field {
+    overflow: hidden;
+    border-bottom: 1px dotted #708596;
+    min-height: 20px;
+}
+.form-body .s-row {
+    margin-bottom: 15px;
+}
+.p-r-10{
+    padding-right: 10px;
+}
+.w-30{
+    width: 33.333%;
+}
+
+
+/*modal css*/
+/*modal custom*/
+
+.modal.in .modal-dialog {
+    width: 80%;
+}
+
+.modal-content {
+    border-radius: 0px;
+}
+
+/*modal member divs*/
+.member {
+    width: 100%;
+    height: 300px;
+}
+
+.member_img {
+    width: 100%;
+    height: 80%;
+}
+
+.member_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-header {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    font-family: monospace;
+}
+
+.modal-header h5 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.member {
+    width: 100%;
+    height: 300px;
+    border: solid 1px #e5e5e5;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: monospace;
+    box-shadow: 0px 0px 20px 0px;
+}
+
+.member_info i {
+    width: 40px;
+    height: 40px;
+    background: #000;
+    line-height: 42px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.modal-footer .btn {
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+
+    outline: none;
+}
+
+.navbar.navbar-default ul li:hover a {
+    color: #000;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.modal-footer .btn {
+    border-radius: 0px;
+    outline: none;
+}
+
+.modal-footer:hover .btn {
+    border-radius: 0px;
+    outline: none;
+}
+
+.btn.active, .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.modal-header .close {
+    outline: none;
+}
+
+
+.header_text {
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+.header_text h2 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+#header {
+    width: 100%;
+    height: 70%;
+}

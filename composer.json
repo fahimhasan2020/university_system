@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "psr-4" : {
+      "App\\": "src\\"
+    }
+  },
+  "require": {
+    "dompdf/dompdf": "v0.8.1",
+    "parsecsv/php-parsecsv": "^1.1"
+  }
+
+}

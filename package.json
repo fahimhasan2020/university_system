@@ -1,0 +1,22 @@
+{
+  "name": "happy_coders_sms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/rashed5012/Happy_Coders_SMS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/rashed5012/Happy_Coders_SMS/issues"
+  },
+  "homepage": "https://gitlab.com/rashed5012/Happy_Coders_SMS#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
