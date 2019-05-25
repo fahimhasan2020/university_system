@@ -1,26 +1,17 @@
 <?php
 if(!isset($_SESSION) )session_start();
 include_once('../../../vendor/autoload.php');
-
 use App\Admin\Admin;
 use App\Utility\Utility;
-use App\Model\Database;
 use App\Message\Message;
-$db = new Database();
-
 $auth= new Admin();
 $status = $auth->setData($_SESSION)->logged_in();
-
 if(!$status) {
     Utility::redirect('index.php');
     return;
 }
-
 ?>
-
-
-
-<?php include_once("head-area.php");?>
+<?php include("head-area.php");?>
 
 <div class="text-center">
 
@@ -45,7 +36,7 @@ if(!$status) {
 
         <div class="row">
             <div class="col-md-12 col-sm-12 clearfix" style="text-align:center;">
-                <h2 style="font-weight:200; margin:0px;">Happy School Management System</h2>
+                <h2 style="font-weight:200; margin:0px;">Student Management System</h2>
             </div>
             <!-- Raw Links -->
             <?php include_once("subnav.php");?>
@@ -86,14 +77,14 @@ if(!$status) {
                     <div class="col-md-12">
 
                         <div class="tile-stats tile-red">
-                            <?php
-                            $sql1 ="SELECT student_id from students ";
-                            $query1 = $db->dbh -> prepare($sql1);
-                            $query1->execute();
-                            $results1=$query1->fetchAll(PDO::FETCH_OBJ);
-                            $totalstudents=$query1->rowCount();
-                            ?>
-                            <div class="num" data-start="0" data-end="<?php echo $totalstudents;?>"
+<!--                            --><?php
+//                            $sql1 ="SELECT student_id from students ";
+//                            $query1 = $db->dbh -> prepare($sql1);
+//                            $query1->execute();
+//                            $results1=$query1->fetchAll(PDO::FETCH_OBJ);
+//                            $totalstudents=$query1->rowCount();
+//                            ?>
+                            <div class="num" data-start="0" data-end="<?php ?>"
                                  data-postfix="" data-duration="800" data-delay="0"></div>
                             <div class="icon"><i class="fa fa-group"></i></div>
                             <h3>student</h3>
@@ -104,14 +95,14 @@ if(!$status) {
                     <div class="col-md-12">
 
                         <div class="tile-stats tile-green">
-                            <?php
-                            $sql ="SELECT teacher_id from  teacher ";
-                            $query = $db->dbh -> prepare($sql);
-                            $query->execute();
-                            $results=$query->fetchAll(PDO::FETCH_OBJ);
-                            $totalsubjects=$query->rowCount();
-                            ?>
-                            <div class="num" data-start="0" data-end="<?php echo $totalsubjects;?>"
+<!--                            --><?php
+//                            $sql ="SELECT teacher_id from  teacher ";
+//                            $query = $db->dbh -> prepare($sql);
+//                            $query->execute();
+//                            $results=$query->fetchAll(PDO::FETCH_OBJ);
+//                            $totalsubjects=$query->rowCount();
+//                            ?>
+                            <div class="num" data-start="0" data-end="<?php ?>"
                                  data-postfix="" data-duration="800" data-delay="0"></div>
                             <div class="icon"><i class="entypo-users"></i></div>
                             <h3>teacher</h3>
@@ -123,14 +114,14 @@ if(!$status) {
 
 
                         <div class="tile-stats tile-aqua">
-                            <?php
-                            $sql2 ="SELECT class_id from  classes ";
-                            $query2 = $db->dbh -> prepare($sql2);
-                            $query2->execute();
-                            $results2=$query2->fetchAll(PDO::FETCH_OBJ);
-                            $totalclasses=$query2->rowCount();
-                            ?>
-                            <div class="num" data-start="0" data-end="<?php echo $totalclasses;?>"
+<!--                            --><?php
+//                            $sql2 ="SELECT class_id from  classes ";
+//                            $query2 = $db->dbh -> prepare($sql2);
+//                            $query2->execute();
+//                            $results2=$query2->fetchAll(PDO::FETCH_OBJ);
+//                            $totalclasses=$query2->rowCount();
+//                            ?>
+                            <div class="num" data-start="0" data-end="<?php?>"
                                  data-postfix="" data-duration="800" data-delay="0"></div>
                             <div class="icon"><i class="entypo-user"></i></div>
                             <h3>class</h3>
@@ -141,14 +132,14 @@ if(!$status) {
                     <div class="col-md-12">
 
                         <div class="tile-stats tile-blue">
-                            <?php
-                            $sql3="SELECT  distinct student_id from  students_result ";
-                            $query3 = $db->dbh -> prepare($sql3);
-                            $query3->execute();
-                            $results3=$query3->fetchAll(PDO::FETCH_OBJ);
-                            $totalresults=$query3->rowCount();
-                            ?>
-                            <div class="num" data-start="0" data-end="<?php echo $totalresults;?>"
+<!--                            --><?php
+//                            $sql3="SELECT  distinct student_id from  students_result ";
+//                            $query3 = $db->dbh -> prepare($sql3);
+//                            $query3->execute();
+//                            $results3=$query3->fetchAll(PDO::FETCH_OBJ);
+//                            $totalresults=$query3->rowCount();
+//                            ?>
+                            <div class="num" data-start="0" data-end="<?php ?>"
                                  data-postfix="" data-duration="800" data-delay="0"></div>
                             <div class="icon"><i class="entypo-chart-bar"></i></div>
 

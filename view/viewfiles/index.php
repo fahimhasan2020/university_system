@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>University System</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="../../resources/img/favicon.ico">
@@ -13,17 +13,11 @@
         <link rel="stylesheet" href="../../resources/template/css/font-awesome.min.css">
         <!-- main style -->
         <link rel="stylesheet" href="../../resources/template/css/main.css">
-
     </head>
-
-
     <body>
-
     <!--header section-->
     <section id="header">
-       
        <?php include "navbar.php" ?>
-
         <!--header img-->
         <div class="main_div">
             <img src="../../resources/template/img/1.jpg" class="img-fluid">

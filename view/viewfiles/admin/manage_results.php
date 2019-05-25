@@ -15,8 +15,6 @@ if(!$status) {
     return;
 }
 
-use App\Model\Database;
-$db = new Database();
 
 ?>
 
@@ -48,7 +46,7 @@ $db = new Database();
 
         <div class="row">
             <div class="col-md-12 col-sm-12 clearfix" style="text-align:center;">
-                <h2 style="font-weight:200; margin:0px;">Happy School Management System</h2>
+                <h2 style="font-weight:200; margin:0px;">Student Management System</h2>
             </div>
             <!-- Raw Links -->
             <?php include_once("subnav.php");?>
@@ -93,40 +91,6 @@ $db = new Database();
                 </tr>
                 </thead>
                 <tbody>
-                <?php $sql = "SELECT  distinct students.name,students.roll_number,students.email,students.student_id,classes.class_name,classes.section from students_result join students on students.student_id = students_result.student_id  join classes on classes.class_id = students_result.class_id";
-                    $query = $db->dbh->prepare($sql);
-                    $query->execute();
-                    $results=$query->fetchAll(PDO::FETCH_OBJ);
-                    $cnt=1;
-                    if($query->rowCount() > 0)
-                    {
-                    foreach($results as $result)
-                    {   ?>
-
-                        <tr>
-                            <td>
-                                <?php echo $cnt;?>
-                            </td>
-                            <td>
-                                <?php echo $result->name;?>
-                            </td>
-                            <td>
-                                <?php echo $result->roll_number;?>
-                            </td>
-                            <td>
-                                <?php echo $result->class_name;?>(
-                                <?php echo $result->section;?>)
-                            </td>
-                            <td>
-                                <?php echo htmlentities($result->email);?>
-                            </td>
-
-                            <td>
-                                <a class="btn btn-primary" href="edit_student_result.php?student_id=<?php echo $result->student_id;?>"><i class="entypo-pencil">edit marks</i></a>
-
-                            </td>
-                        </tr>
-                        <?php $cnt=$cnt+1;}} ?>
 
 
                 </tbody>

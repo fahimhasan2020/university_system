@@ -10,7 +10,7 @@
 
     <link rel="icon" href="../../../resources/img/favicon.ico">
 
-    <title>Admin || Happy School Management System</title>
+    <title>Admin || Student Management System</title>
 
     <link rel="stylesheet" href="../../../resources/assets/js/jquery-ui/css/no-theme/jquery-ui-1.10.3.custom.min.css">
     <link rel="stylesheet" href="../../../resources/assets/css/font-icons/entypo/css/entypo.css">

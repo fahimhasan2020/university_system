@@ -51,7 +51,7 @@ $allData = $objClasses->index();
 
 		<div class="row">
 				<div class="col-md-12 col-sm-12 clearfix" style="text-align:center;">
-					<h2 style="font-weight:200; margin:0px;">Happy School Management System</h2>
+					<h2 style="font-weight:200; margin:0px;">Student Management System</h2>
 			    </div>
 				<!-- Raw Links -->
                 <?php include_once("subnav.php");?>

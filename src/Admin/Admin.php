@@ -52,11 +52,10 @@ class Admin extends DB{
     } // end of view()
 
     public function is_registered(){
-        $query = "SELECT * FROM admin WHERE email='$this->email' AND password='$this->password'";
+        $query = "SELECT * FROM `admin` WHERE `email`='$this->email' AND `password`='$this->password'";
         $sth=$this->dbh->query($query);
         $sth->setFetchMode(PDO::FETCH_OBJ);
-        $sth->fetchAll();
-
+        $test =$sth->fetchAll();
         $count = $sth->rowCount();
         if ($count > 0) {
             return TRUE;

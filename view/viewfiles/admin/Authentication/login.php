@@ -5,8 +5,6 @@ use App\Admin\Admin;
 use App\Message\Message;
 use App\Utility\Utility;
 
-
-
 $auth= new Admin();
 $status= $auth->setData($_POST)->is_registered();
 

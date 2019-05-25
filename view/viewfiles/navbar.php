@@ -22,12 +22,13 @@
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="student/search_result.php">Result</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LogIn As<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="admin/">Admin</a></li>
-                            <li><a href="teacher">Teacher</a></li>
+                            <li><a href="teacher/">Teacher</a></li>
+                            <li><a href="student/">student</a></li>
+                            <li><a href="parents/">Parents</a></li>
                         </ul>
                     </li>
                 </ul>
