@@ -1,13 +1,12 @@
 <?php
 if(!isset($_SESSION) )session_start();
-include_once('../../../../vendor/autoload.php');
-use App\User\User;
-use App\Admin\Admin;
+include('../../../../vendor/autoload.php');
+use App\Parents\Parents;
 use App\Message\Message;
 use App\Utility\Utility;
 
 
-$auth= new Admin();
+$auth= new Parents();
 $status= $auth->log_out();
 
 session_destroy();

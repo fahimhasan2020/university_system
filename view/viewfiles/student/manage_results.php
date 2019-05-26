@@ -88,7 +88,7 @@ $db = new Database();
                     <th>Roll Id</th>
                     <th>Class</th>
                     <th>Email</th>
-                    <th>Action</th>
+
                 </tr>
                 </thead>
                 <tbody>
@@ -119,11 +119,6 @@ $db = new Database();
                             <td>
                                 <?php echo htmlentities($result->email);?>
                             </td>
-
-                            <td>
-                                <a class="btn btn-primary" href="edit_student_result.php?student_id=<?php echo $result->student_id;?>"><i class="entypo-pencil">edit marks</i></a>
-
-                            </td>
                         </tr>
                         <?php $cnt=$cnt+1;}} ?>
 
@@ -136,7 +131,6 @@ $db = new Database();
                     <th>Roll Id</th>
                     <th>Class</th>
                     <th>Email</th>
-                    <th>Action</th>
                 </tr>
                 </tfoot>
             </table>

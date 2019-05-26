@@ -1,13 +1,13 @@
 <?php
 if(!isset($_SESSION) )session_start();
 include_once('../../../vendor/autoload.php');
-use App\User\User;
+use App\Parents;
 use App\Model\Database;
 use App\Utility\Utility;
 use App\Message\Message;
 $db = new Database();
 
-$auth= new User();
+$auth= new Parents();
 $status = $auth->setData($_SESSION)->logged_in();
 
 if(!$status) {

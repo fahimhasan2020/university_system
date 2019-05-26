@@ -70,7 +70,7 @@ use App\Message\Message;
                 </div>
                 <div class="panel-title form-title  text-center col-md-12">
                     <div class="panel-title text-center">
-                        <h4 style="color: #00b29e; padding: 15px 0; font-size: 15px; font-weight: bold;">Teacher Login Form</h4>
+                        <h4 style="color: #00b29e; padding: 15px 0; font-size: 15px; font-weight: bold;">Parents Login Form</h4>
                     </div>
                 </div>
                 <div class="panel-body form-body">

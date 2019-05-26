@@ -101,8 +101,6 @@ class Teacher extends Database{
 
     } // end of storeTeacher()
 
-
-
     public function index() {
 
         $sqlQuery = "SELECT * FROM teacher";

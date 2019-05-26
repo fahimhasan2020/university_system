@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dca7708-ed04-409a-b729-481ce3f7c662" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Admin/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin/Admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teacher/Teacher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teacher/Teacher.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
@@ -374,19 +374,10 @@
       <change beforePath="$PROJECT_DIR$/vendor/sabberworm/php-css-parser/tests/files/whitespace.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/sabberworm/php-css-parser/tests/phpunit.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/sabberworm/php-css-parser/tests/quickdump.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/viewfiles/admin/Authentication/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewfiles/admin/Authentication/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/viewfiles/admin/deshboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewfiles/admin/deshboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/viewfiles/admin/manage_results.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewfiles/admin/manage_results.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/viewfiles/admin/students_result_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewfiles/admin/students_result_add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/viewfiles/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewfiles/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/viewfiles/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewfiles/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/viewfiles/student/download_result.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/viewfiles/student/footer_js_link.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/viewfiles/student/head-area.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/viewfiles/student/result.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/viewfiles/student/search_result.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/viewfiles/teacher/Authentication/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewfiles/teacher/Authentication/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/viewfiles/teacher/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewfiles/teacher/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/viewfiles/parents/Authentication/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewfiles/parents/Authentication/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/viewfiles/parents/Authentication/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewfiles/parents/Authentication/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/viewfiles/parents/deshboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewfiles/parents/deshboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/viewfiles/parents/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/viewfiles/parents/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -402,15 +393,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/viewfiles/admin/students_result_add.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/viewfiles/parents/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="226" column="26" lean-forward="true" selection-start-line="226" selection-start-column="26" selection-end-line="226" selection-end-column="26" />
+            <state relative-caret-position="17">
+              <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/viewfiles/parents/Authentication/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#89#113#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/viewfiles/parents/Authentication/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parents/Parents.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+              <folding>
+                <element signature="e#25#48#0#PHP" expanded="true" />
+                <element signature="e#674#1043#0#PHP" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#dic#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#dic#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/viewfiles/parents/deshboard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#91#107#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Teacher/Teacher.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#30#53#0#PHP" expanded="true" />
+                <element signature="e#1838#2214#0#PHP" />
+                <element signature="e#2220#3092#0#PHP" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#3125#3360#0#PHP" />
+                <element signature="e#3384#3644#0#PHP" />
+                <element signature="e#3667#4188#0#PHP" />
+                <element signature="n#style#0;n#i#0;n#dic#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#4212#5104#0#PHP" />
+                <element signature="n#style#0;n#i#0;n#dic#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -456,12 +517,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/view/HappyCoders/member.php" />
-        <option value="$PROJECT_DIR$/view/HappyCoders/admission.php" />
-        <option value="$PROJECT_DIR$/view/HappyCoders/about.php" />
-        <option value="$PROJECT_DIR$/view/HappyCoders/navbar.php" />
-        <option value="$PROJECT_DIR$/view/HappyCoders/student/search_result.php" />
-        <option value="$PROJECT_DIR$/src/BITM/HappyCoders/Classes/Classes.php" />
         <option value="$PROJECT_DIR$/view/HappyCoders/admin/subject_class_combination_delete.php" />
         <option value="$PROJECT_DIR$/view/HappyCoders/teacher/navigation.php" />
         <option value="$PROJECT_DIR$/view/HappyCoders/teacher/subnav.php" />
@@ -496,7 +551,6 @@
         <option value="$PROJECT_DIR$/view/viewfiles/navbar.php" />
         <option value="$PROJECT_DIR$/view/viewfiles/student/index.php" />
         <option value="$PROJECT_DIR$/view/viewfiles/student/Authentication/login.php" />
-        <option value="$PROJECT_DIR$/src/Model/Database.php" />
         <option value="$PROJECT_DIR$/src/Admin/Admin.php" />
         <option value="$PROJECT_DIR$/view/viewfiles/admin/Authentication/login.php" />
         <option value="$PROJECT_DIR$/view/viewfiles/student/deshboard.php" />
@@ -507,16 +561,23 @@
         <option value="$PROJECT_DIR$/view/viewfiles/admin/deshboard.php" />
         <option value="$PROJECT_DIR$/view/viewfiles/admin/manage_results.php" />
         <option value="$PROJECT_DIR$/view/viewfiles/admin/students_result_add.php" />
+        <option value="$PROJECT_DIR$/src/Model/Database.php" />
+        <option value="$PROJECT_DIR$/view/viewfiles/parents/index.php" />
+        <option value="$PROJECT_DIR$/view/viewfiles/parents/Authentication/logout.php" />
+        <option value="$PROJECT_DIR$/view/viewfiles/parents/Authentication/login.php" />
+        <option value="$PROJECT_DIR$/src/Teacher/Teacher.php" />
+        <option value="$PROJECT_DIR$/src/Parents/Parents.php" />
+        <option value="$PROJECT_DIR$/view/viewfiles/parents/deshboard.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
+      <path value="$PROJECT_DIR$/vendor/parsecsv/php-parsecsv" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
       <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
       <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
-      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
-      <path value="$PROJECT_DIR$/vendor/parsecsv/php-parsecsv" />
       <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
     </include_path>
   </component>
@@ -558,7 +619,7 @@
               <item name="~/sms" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="view" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="viewfiles" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="admin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="parents" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -626,19 +687,21 @@
       <workItem from="1558750329401" duration="220000" />
       <workItem from="1558757657622" duration="3112000" />
       <workItem from="1558761859919" duration="2634000" />
-      <workItem from="1558768878789" duration="4765000" />
+      <workItem from="1558768878789" duration="6256000" />
+      <workItem from="1558831620818" duration="3632000" />
+      <workItem from="1558836610456" duration="1363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74464000" />
+    <option name="totallyTimeSpent" value="80950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26287878" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2719697" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -673,13 +736,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/HappyCoders/admin/index.php" />
-    <entry file="file://$PROJECT_DIR$/view/HappyCoders/teacher/subnav.php" />
-    <entry file="file://$PROJECT_DIR$/view/HappyCoders/index.php" />
-    <entry file="file://$PROJECT_DIR$/view/HappyCoders/teacher/index.php" />
-    <entry file="file://$PROJECT_DIR$/view/HappyCoders/student/head-area.php" />
-    <entry file="file://$PROJECT_DIR$/view/HappyCoders/student/search_result.php" />
-    <entry file="file://$PROJECT_DIR$/view/HappyCoders/student/result.php" />
     <entry file="file://$PROJECT_DIR$/view/HappyCoders/student/download_result.php" />
     <entry file="file://$PROJECT_DIR$/view/HappyCoders/admin/teacher_delete.php" />
     <entry file="file://$PROJECT_DIR$/view/HappyCoders/admin/updateTeacher.php" />
@@ -740,16 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/User/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="90" column="30" selection-start-line="9" selection-start-column="4" selection-end-line="90" selection-end-column="30" />
-          <folding>
-            <element signature="e#67#91#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Student/Student.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -778,9 +824,6 @@
           <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/view/viewfiles/student/profile.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -848,34 +891,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-          <folding>
-            <element signature="e#26#34#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/viewfiles/student/manage_subjects.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="19" column="32" lean-forward="true" selection-end-line="172" />
           <folding>
             <element signature="e#91#112#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Admin/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-          <folding>
-            <element signature="e#69#98#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -918,14 +939,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/viewfiles/admin/footer_js_link.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/viewfiles/admin/students_result_add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="226" column="26" lean-forward="true" selection-start-line="226" selection-start-column="26" selection-end-line="226" selection-end-column="26" />
+        <state relative-caret-position="15">
+          <caret line="236" column="8" lean-forward="true" selection-start-line="236" selection-start-column="8" selection-end-line="236" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/viewfiles/parents/Authentication/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Admin/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="e#69#98#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Teacher/Teacher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#30#53#0#PHP" expanded="true" />
+            <element signature="e#1838#2214#0#PHP" />
+            <element signature="e#2220#3092#0#PHP" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#3125#3360#0#PHP" />
+            <element signature="e#3384#3644#0#PHP" />
+            <element signature="e#3667#4188#0#PHP" />
+            <element signature="n#style#0;n#i#0;n#dic#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#4212#5104#0#PHP" />
+            <element signature="n#style#0;n#i#0;n#dic#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
+          <folding>
+            <element signature="e#67#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/viewfiles/parents/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/viewfiles/parents/Authentication/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#89#113#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parents/Parents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+          <folding>
+            <element signature="e#25#48#0#PHP" expanded="true" />
+            <element signature="e#674#1043#0#PHP" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#dic#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#dic#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/viewfiles/parents/deshboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#91#107#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

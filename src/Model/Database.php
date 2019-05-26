@@ -7,7 +7,7 @@ use PDOException;
 
 class Database
 {
-    protected $dbh;
+    public $dbh;
 
     public function __construct()
     {
